@@ -1,5 +1,5 @@
 # IMAndroidClient
-IMAndroidClient
+使用Netty 实现的IM 系统-Android客户端
 
 ### 完成的功能
 
