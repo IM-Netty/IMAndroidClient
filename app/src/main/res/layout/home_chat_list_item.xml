@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <ImageView
+        android:id="@+id/head_image"
+        android:layout_width="@dimen/user_header_size"
+        android:layout_height="@dimen/user_header_size"
+        android:src="@drawable/ic_default_user_header"/>
+
+    <TextView
+        android:id="@+id/chat_name"
+        android:layout_toRightOf="@+id/head_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:maxLines="1"
+        android:text="黄廉温"/>
+
+    <TextView
+        android:id="@+id/chat_content"
+        android:layout_toRightOf="@+id/head_image"
+        android:layout_alignBottom="@+id/head_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginBottom="2dp"
+        android:text="VectorHuang:[躺平平][躺平平][躺平平][躺平平]"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/chat_time"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginBottom="2dp"
+        android:text="12:34"
+        android:maxLines="1"/>
+
+
+</RelativeLayout>
