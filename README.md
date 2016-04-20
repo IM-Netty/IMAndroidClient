@@ -20,4 +20,4 @@ PCClient
 
 AndroidClient
 
-![AndroidClient](./image/chat2.png =300*300)
+![AndroidClient](./image/chat2.png =300x300)
