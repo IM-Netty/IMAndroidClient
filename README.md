@@ -15,6 +15,9 @@ IMAndroidClient
 ### Simple
 
 PCClient
+
 ![PCClient](./image/chat1.png)
+
 AndroidClient
-![AndroidClient](./image/chat2.png)
+
+![AndroidClient](./image/chat2.png =300*300)
