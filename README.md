@@ -20,4 +20,4 @@ PCClient
 
 AndroidClient
 
-![AndroidClient](./image/chat2.png =300x300)
+<img src="./image/chat2.png" width = "300" alt="AndroidClient"/>
